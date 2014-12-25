@@ -185,6 +185,10 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary2\ClassLibrary2.csproj">
+      <Project>{dab38ada-6c93-4a9b-9945-0654b26e1dfb}</Project>
+      <Name>ClassLibrary2</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RefLibrary\RefLibrary.csproj">
       <Project>{41fa8d07-ec63-419f-9c7e-2fb186212c36}</Project>
       <Name>RefLibrary</Name>
